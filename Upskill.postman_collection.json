@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "68e5e594-ece2-49c3-89ed-05951c4687d0",
+		"name": "Upskill",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2244915"
+	},
+	"item": [
+		{
+			"name": "TestRequest",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "qwe",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer qwe",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://iudho7gxc3.execute-api.eu-north-1.amazonaws.com/test/helloworld",
+					"protocol": "https",
+					"host": [
+						"iudho7gxc3",
+						"execute-api",
+						"eu-north-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test",
+						"helloworld"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer"
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
